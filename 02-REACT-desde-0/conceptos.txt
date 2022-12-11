@@ -1,0 +1,150 @@
+Que es REACT?
+Biblioteca de js para crear interfaces de usuario, solo permite crear interfaces pero no te dice como ni que utilizar en la practica necesita de otro smodulos.
+- Codigo existente de js 
+
+- Esta basado en componentes
+
+-src 
+Crear archivos, codigo para desarrollar nuestra app
+-public
+Se encuentra html 
+
+-Etiqueta div -> root
+Todo el codigo de js de nuestra a
+plicacion se cargara en esta etiqueta 
+-package
+indica bibliotecas esta utilizando nuestra aplicacion
+
+-build 
+Es la carpeta final cuando ya esta en produccion nuestra app
+
+-nodemodules
+Es para que la biblioteca pueda funcionar
+
+
+-package-log.json
+Da seguimiento a los archivos que estan instalados
+
+
+-componentes
+Son funciones que retornan una interfaz como por ejemplo botones, etiquetas nav etc.
+En react podemos retornar elementos html
+Los componentes son con la primera letra en mayus y las etiquetas html en minis
+
+
+-JSON.stringfy(): Objeto global del navegador
+Convierte un objeto de js en su version string 
+
+
+-JSX:
+  - Fragment: 
+  Es un contenedor vacio, para no utilizar etiquetas que no queremos.
+  Etiquetas vacias 
+
+-ESMODULES:
+El nombre de los componentes debe ser utilizado en PascalCase para poder utilizarlo.
+  import Products , {Price} from './Products'
+  export Price
+  export default Products
+  
+
+-Extension JS
+Esta extension en creat react app es opcional pero en vite no
+
+-Props 
+Son parametros que se le pasan a una funcion
+Cambiar datos internamente en un componente 
+
+
+-Comentarios: Para comentar hay que pasarle codigo js
+{/* */}
+
+
+- VALORES POR DEFECTO EN LAS PROPS ---------------------
+1. Prop types: paquete npm añade tipos de datos extras a los props
+  importarlo de la manera que requiere en la doc
+
+2. Defaultprops: Añade por defecto valor a las props
+
+3. name = 'aaron'  parametro por defecto en el componente 
+
+----------------------------
+
+
+-Estilos 
+3 maneras de añadir estilos 
+-Estilos en linea: style
+- Estilos guardadas en una variable:
+- Estilos en clase: className
+
+
+Tipos de componentes
+- Basados en funciones: Codigo mas nuevo
+- Basados en clases 
+  Hace uso palabra reservada class y hereda de component que es la importacion de react y para renderizar hace uso del metodo del render,
+
+  Hace uso palabra reservada class y hereda de component que es la importacion de react y para renderizar hace uso del metodo del render,
+
+
+- Event handlers o manejadores de eventos reciben una funcion o el nombre de la variable donde se creo esa funcion.
+  Onclick: 
+  OnChange: 
+    - Recibe como parametro un evento que tiene distintas propiedades a las cuales se pueda acceder como al target y dentro del targe al  value o valor, y tambien al  id de la etiqueta etc.
+    - Se utiliza el e.target.value para detectar que es lo que se va escribiendo en un input 
+  Onblur
+  OnDrag
+  OnCopy
+  OnDoubleClick: doble click 
+  Onsubmit: Formulario -> Se utiliza el objeto e y el metodo preventDefault "e.preventDefault()" para cancelar la actualizacion de la pagina cuando se envia un formulario
+
+
+- react-icons: practica en apifetch
+Conjunto enorme de iconos en svg que se puede importar como componentes de react 
+-   Tener bibliotecas para añadir animaciones , crear formulario, crear ventanas modales, interfaces que lucen bastante mejor como material ui
+-Material Ui: 
+  tarjetas, reproductores, selectores , botones estilizados solo para utilizarlo
+
+
+  APIS DEL navegador
+  -localstorage
+  -sesionstorage
+  -canva
+  - notificaciones
+  -Fetch: Permite traer datos de una API y se utiliza promesas pero es preferible utilizar async await.
+
+
+-Array methods (reforzar)
+El metodo map en react recibe una key en el la etiqueta de html padre  la cual se utiliza para indetificar un elemento unico del cual se va a iterar.
+
+- Hooks
+  - Son funciones para extener codigo 
+  - Hooks api reference
+    - useState: Es una funcion que cambia el estado de una variable 
+
+    - useEffect:
+       Recibe
+        funcion cb: 
+        arreglo de dependencias: Dependera del valor de la variable
+    
+    - useContext
+    
+
+
+
+vite: 
+Es obligatorio poner la extension jsx
+
+npm run build: empaqueta
+
+configuraciones
+extension:
+  ayu: tema de vscode
+  preferences open userssettins 
+    > emmet > javascript > jsreact
+    3. es7 react: componentes rapido
+      snnipet: rfce
+
+
+
+
+desarrolloWeb_js/desarrolloWeb_html_css_2/youtube-html-css-main/01-CursoHTML
